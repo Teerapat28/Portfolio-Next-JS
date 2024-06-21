@@ -15,11 +15,11 @@ const Hero = () => {
         background="transparent"
         minSize={0.6}
         maxSize={1.4}
-        particleDensity={15}
+        particleDensity={20}
         particleColor="#FFFFFF"
       />
 
-      <BackgroundBeams />
+      <BackgroundBeams className="w-full h-screen absolute"/>
 
       <div>
         <Spotlight
